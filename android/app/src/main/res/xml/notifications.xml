@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channels xmlns:tools="http://schemas.android.com/tools">
+    <channel
+        id="alarm_channel"
+        name="@string/flutter_local_notification_channel_name"
+        description="Channel for alarm notifications"
+        importance="max"
+        sound="alarm_sound"
+        vibration="default"
+        show_badge="true"
+        tools:targetApi="o">
+    </channel>
+</channels>
